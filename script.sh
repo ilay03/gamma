@@ -3,7 +3,7 @@ apt install libpng-dev -y
 # mkdir ../pdftojson_build
 # cp -r ../pdftojson/* ../pdftojson_build/
 cd ../pdftojson/ 
-export CXXFLAGS="-fsanitize=address,undefined"
+#export CXXFLAGS="-fsanitize=address,undefined"
 # export CFLAGS=-fsanitise=address,undifined
 # export LFLAGS=-fsanitise=address,undifined
 # ./configure && make
